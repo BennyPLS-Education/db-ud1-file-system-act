@@ -15,6 +15,8 @@ public class Main {
         System.out.println("3. Exercici 3");
         System.out.println("4. Exercici 4");
         System.out.println("5. Exercici 5");
+        System.out.println("6. Exercici 6");
+        System.out.println("7. Exercici 7");
         System.out.println("-------------------------");
 
         option = getNumber();
@@ -26,6 +28,8 @@ public class Main {
             case 3 -> act3.Main.main(args);
             case 4 -> act4.Main.main(args);
             case 5 -> act5.Main.main(args);
+            case 6 -> act6.Main.main(args);
+            case 7 -> act7.Main.main(args);
 
             default -> System.out.println("Opció no vàlida");
         }
